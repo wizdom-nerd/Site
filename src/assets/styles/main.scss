@@ -1,0 +1,74 @@
+@import'./fonts.scss';
+:root{
+    --red:#d61229;
+}
+:root {
+    --swiper-theme-color: #000 !important;
+    --swiper-navigation-size:30px !important;
+}
+*{
+    font-family: 'Tenor';
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    scrollbar-width: thin;
+    box-sizing: border-box;
+    
+}
+.container{
+    max-width: 1150px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    
+}
+@media (max-width: 1280px) {
+    .container{
+        margin: 0 70px;
+    }
+
+  }
+  
+@media (max-width: 1132px) {
+    .swiper{
+        max-width: 800px;
+        &__img{
+            max-width: 700px;
+        }
+    }
+  }
+.swiper__img{
+    max-width: 1000px;
+}
+@media (max-width: 818px) {
+    .swiper{
+        max-width: 600px;
+        &__img{
+            max-width: 500px;
+        }
+    }
+  }
+@media (max-width: 570px) {
+    .container{
+        margin: 0 20px;
+    }
+    .builders p,
+    .architects p{
+        font-size: 1rem !important;
+        font-weight: 500 !important;
+    }
+  }
+
+@media (max-width: 634px) {
+.swiper__img{
+    max-width: 400px;
+}
+  }
+  
+@media (max-width: 410px) {
+    .container{
+        margin: 0 10px;
+    }
+    .swiper__img{
+        max-width: 300px;
+    }
+  }
